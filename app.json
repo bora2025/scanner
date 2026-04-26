@@ -12,19 +12,13 @@
       "supportsTablet": true
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "root": "./src/app"
-        }
-      ],
+      "expo-router",
       [
         "expo-camera",
         {
           "cameraPermission": "We need camera access so you can scan documents"
         }
-      ],
-      "expo-image-picker"
+      ]
     ],
     "android": {
       "permissions": [
@@ -32,6 +26,15 @@
         "android.permission.RECORD_AUDIO"
       ],
       "package": "com.borax.scannerapp"
+    },
+    "extra": {
+      "router": {
+        "origin": false,
+        "root": "./src/app"
+      },
+      "eas": {
+        "projectId": "b1848554-28c8-4a78-9f87-566eb68908e7"
+      }
     }
   }
 }
