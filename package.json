@@ -1,0 +1,30 @@
+{
+  "name": "scanner-app",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "prebuild": "expo prebuild"
+  },
+  "dependencies": {
+    "expo": "~51.0.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "expo-camera": "~15.0.0",
+    "expo-file-system": "~17.0.0",
+    "expo-sharing": "~12.0.0",
+    "expo-image-picker": "~15.0.0",
+    "react-native-document-scanner-plugin": "*",
+    "expo-router": "~3.5.0",
+    "expo-print": "~13.0.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

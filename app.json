@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Scanner App",
+    "slug": "scanner-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "root": "./src/app"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "We need camera access so you can scan documents"
+        }
+      ],
+      "expo-image-picker"
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.borax.scannerapp"
+    }
+  }
+}
