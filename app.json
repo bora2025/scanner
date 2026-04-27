@@ -2,6 +2,7 @@
   "expo": {
     "name": "Scanner App",
     "slug": "scanner-app",
+    "scheme": "scannerapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -28,10 +29,6 @@
       "package": "com.borax.scannerapp"
     },
     "extra": {
-      "router": {
-        "origin": false,
-        "root": "./src/app"
-      },
       "eas": {
         "projectId": "b1848554-28c8-4a78-9f87-566eb68908e7"
       }
